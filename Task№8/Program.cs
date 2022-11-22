@@ -8,7 +8,7 @@ Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 bool find = false; //переменная для определения, найдено ли хоть одно целое число
 int count = 1;
-if (n == 0) Console.WriteLine("Введено недопустимое значение ноль");
+if (n <= 0) Console.WriteLine("Введено недопустимое значение. По условию число должно быть больше нуля");
 else
 {
     while (count <= n)
